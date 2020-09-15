@@ -72,6 +72,7 @@ func main() {
 		Metadata: []map[string]string{
 			{"name": "title", "value": foundItem.Title},
 			{"name": "description", "value": foundItem.Description},
+			{"name": "link", "value": foundItem.Link},
 			{"name": "guid", "value": foundItem.GUID},
 		},
 	}
